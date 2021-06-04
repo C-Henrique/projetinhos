@@ -18,3 +18,12 @@
     color: #fff;
     font-size: 1.1rem;
 }
+#home-article > .sobre-article > .paragrf >.art1{
+ background: url(../../assets/img/art11.png);
+ background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 50%;
+ height: 690px;
+}
+
