@@ -1,0 +1,32 @@
+#main-header{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 0, 1);
+}
+#main-header > .logo{
+    padding: 20px;
+    font-family: 'Crushed', cursive;
+    color: #ffa502;
+}
+#main-header > .logo >a >img{
+    width: 18%;
+}
+#main-header > .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+#main-header > .menu > ul{
+    display: flex;
+    flex-direction: row;
+}
+#main-header > .menu > ul > li {
+   margin: 10px;
+   font-size: 1.3rem;
+}
+#main-header > .menu > ul > li > a {
+    color: #ffa502;
+    font-family: 'Farsan', cursive;
+}

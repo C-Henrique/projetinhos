@@ -1,0 +1,7 @@
+#home-banner{
+    background: url(../../assets/img/banner3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:900px;
+}

@@ -1,0 +1,20 @@
+#home-article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #000;
+}
+#home-article > .sobre-article{
+    margin: auto 5rem;
+}
+#home-article > .sobre-article > .titulo{
+    font-size: 35px;
+    font-family: 'Sail', cursive;
+    color: #fff;
+    margin: auto 5rem;
+}
+#home-article > .sobre-article > .paragrf{
+    font-family: 'Farsan', cursive;
+    color: #fff;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,40 @@
+#main-footer{
+    display: flex;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+#main-footer > .descr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#main-footer > .descr > h4 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #fff;
+    margin:  auto 15px;
+    font-family: 'Sail', cursive;
+
+}
+#main-footer > .descr > p {
+    font-size: 1rem;
+    font-family: 'Farsan', cursive;
+    color: #fff;
+}
+.link-footer{
+   
+}
+.link-footer > .link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+.link-footer > .link > li > a{
+    font-family: 'Farsan', cursive;
+    color: #ffa502;
+    margin: auto 20px;
+}
