@@ -15,15 +15,40 @@
 }
 #home-article > .sobre-article > .paragrf{
     font-family: 'Farsan', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
     color: #fff;
     font-size: 1.1rem;
 }
-#home-article > .sobre-article > .paragrf >.art1{
- background: url(../../assets/img/art11.png);
- background-attachment: fixed;
- background-size: cover;
- background-repeat: no-repeat;
- width: 50%;
- height: 690px;
+#home-article > .sobre-article > .paragrf > .img-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+#home-article > .sobre-article > .paragrf > .img-info > img
+{
+    border: solid 1px #452b51 ;
+    border-radius: 1rem;
+    transition: .5s ease-in-out;
+    width:70%;
+    color: rgba(255, 255, 255, 0);
+}
+#home-article > .sobre-article > .paragrf >.img-info> img:hover 
+{
+    border-bottom: solid 3rem #000 ;
+    border-radius: auto 2px;
+    color: rgba(0, 0, 0, 1);
+    
+}
+#home-article > .sobre-article > .paragrf > .img-info > .info{
+    z-index: 1;
+    position: relative;
+    padding: 10px ;
+    top: -40px;
+}
